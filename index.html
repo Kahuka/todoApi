@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+<title>TodoApi</title>
+<author>Kaur Kristjan Rajsaar</author>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<script src="index.js"></script>
+<body>
+    <div id="loginPart" class="tasks">
+        <div class= "input" >
+        <input style="width:100%" id="username" type="text" placeholder="Username"> <br>
+        <input style="width:100%" id="password" type="password" placeholder="Password"> <br>
+        <input style="width:100%" id="firstname" type="text" placeholder="First name"> <br>
+        <input style="width:100%" id="lastname" type="text" placeholder="Last Name"> <br>
+    
+        <button id="login" onclick="login()">Log in</button>  <button id="crUser" onclick="createAccount()">Create user</button>
+        <br><p style="visibility: hidden;" id="logged">logged in</p>
+    </div>
+    </div>
+    <div class="task">
+        <div class="input">
+            <input style="width:100%" id="title" type="text" placeholder="Title"> <br>
+            <input style="width:100%" id="desc" type="text" placeholder="Description"> <br>
+            <button id="Add" onclick="addTask()">Add Task</button> <button id="refresh" onclick="refreshTasks()">Refresh tasks</button>
+        </div>
+
+    </div>
+ 
+
+    <div id="list">
+
+    </div>
+</body>
+
+</html>
